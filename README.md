@@ -2,19 +2,19 @@
 
 React es una biblioteca para construir interfaces de usuario.
 
-React no es un framework y una de sus principales caracteristicas es que no se limita a las web, 
-Por ejemplo con React Native podemos crear aplicaciones moviles y con React 360 aplicaciones de realidad virtual.
+React no es un framework y una de sus principales características es que no se limita a las web, 
+Por ejemplo con React Native podemos crear aplicaciones móviles y con React 360 aplicaciones de realidad virtual.
 
-React es una SPA (single page application), una web dove la mayoria de la enteracion con el usuario occurre en una solo pagina. La nuestra aplicacion tendra un solo ficher HTML, solamente llamado `index.html`, REACT cargara dinamicamente otras piesaz de HTML.
+React es una SPA (single page application), una web dove la mayoría de la interaction con el usuario ocurre en una solo pagina. La nuestra aplicación tendrá un solo fichero HTML, solamente llamado `index.html`, REACT cargara dinámicamente otras pieza de HTML.
 
-## Herramientas para montar una aplicacion con REACT
+## Herramientas para montar una aplicación con REACT
 
-Para el correcto montaje de una aplicacion REACT necesitaremos:
+Para el correcto montaje de una aplicación REACT necesitaremos:
 
-- Un *empaquetador* como Webpack o Parcel. Este te permite escribir codigo modular y empaqutarlo junto en paquetes mas pequeños que optimizan el tiempo de carga.
+- Un *empaquetador* como Webpack o Parcel. Este te permite escribir código modular y empaqutarlo junto en paquetes mas pequeños que optimizan el tiempo de carga.
 - Un *compilador* como Babel. Este permite escribir Javascript moderno que aun asi funciona en navegador mas antiguos.
 
-## JSX
+## JSX
 
 ```js
 const element = <h1>Hello, world!</h1>;
@@ -26,7 +26,7 @@ Se llama JSX, y es una extensión de la sintaxis de JavaScript. Recomendamos usa
 
 JSX produce “elementos” de React. Exploraremos como renderizarlos en el DOM en la siguiente sección. A continuación puedes encontrar lo básico de JSX que será necesario para empezar.
 
-React no requiere usar JSX, pero es una ayuda visual que la mayoria de los programadores encuentra muy util, esto permite tambien mensajes de errores y advertencias mas utiles.
+React no requiere usar JSX, pero es una ayuda visual que la mayoría de los programadores encuentra muy util, esto permite también mensajes de errores y advertencias mas útiles.
 
 ## Variables y funciones in JSX
 
