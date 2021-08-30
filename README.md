@@ -30,10 +30,10 @@ React no requiere usar JSX, pero es una ayuda visual que la mayoría de los prog
 
 ## Variables y funciones in JSX
 
-Declaramos una variable llamada `fruit` y luego la usamos dentro del JSX envolviéndola dentro de llaves:
+Declaramos una variable llamada `name` y luego la usamos dentro del JSX envolviéndola dentro de llaves:
 
 ```js
-const fruit = '🍎';
+const name = 'Josh';
 const element = <h1>Hello, {name}</h1>;
 
 ReactDOM.render(
@@ -42,21 +42,21 @@ ReactDOM.render(
 );
 ```
 
-Puedes poner cualquier expresión de JavaScript dentro de llaves en JSX. Por ejemplo, 2 + 2, `fruits.apple`, o `createDish(fruit)` son todas expresiones válidas de Javascript.
+Puedes poner cualquier expresión de JavaScript dentro de llaves en JSX. Por ejemplo, 2 + 2, `user.firstName`, o `formatName(user)` son todas expresiones válidas de Javascript.
 
 ```js
-function createDish(fruit) {
-  return fruit.apple + ' ' + fruit.pear;
+function formatName(user) {
+  return user.firstName + ' ' + user.secondName;
 }
 
-const fruits = {
-  apple: '🍎',
-  pear: '🍐'
+const user = {
+  firstName: 'Harper',
+  pear: 'Perez'
 };
 
 const element = (
   <h1>
-    Hello, {createDish(fruits)}!  
+    Hello, {formatName(fruits)}!  
   </h1>
 );
 
@@ -92,3 +92,36 @@ const element = <img src={user.avatarUrl}></img>;
 ```
 
 ⚠️ React DOM usa la convención de nomenclatura camelCase en vez de nombres de atributos HTML. Por ejemplo, class se vuelve className en JSX, y tabindex se vuelve tabIndex.
+
+## JSX previene ataques de inyección
+
+Es seguro insertar datos ingresados por el usuario en JSX:
+
+```js
+const title = response.potentiallyMaliciousInput;
+// Esto es seguro:
+const element = <h1>{title}</h1>;
+```
+
+Por defecto, React DOM escapa cualquier valor insertado en JSX antes de renderizarlo. De este modo, se asegura de que nunca se pueda insertar nada que no esté explícitamente escrito en tú aplicación. Todo es convertido en un string antes de ser renderizado. Esto ayuda a prevenir vulnerabilidades XSS (cross-site-scripting).
+
+## JSX representa objetos
+
+Babel compila JSX a llamadas de React.createElement().
+
+Estos dos ejemplos son idénticos:
+
+```js
+const element = (
+  <h1 className="greeting">
+    Hello, world!
+  </h1>
+);
+```
+```js
+const element = React.createElement(
+  'h1',
+  {className: 'greeting'},
+  'Hello, world!'
+);
+```
