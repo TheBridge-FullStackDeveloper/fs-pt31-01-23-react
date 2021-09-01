@@ -1,6 +1,8 @@
-# To do List
+# To do List 📄
 
-En este ejercicio iremos creando una to do list con REACT
+En este ejercicio iremos creando una lista de tareas con REACT
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/33903092/131694503-8ca93b45-ff80-4291-9bc6-b590c3c764c1.gif)
 
 ## Primera iteración
 
