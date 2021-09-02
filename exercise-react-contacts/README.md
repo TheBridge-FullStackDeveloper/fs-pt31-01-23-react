@@ -9,7 +9,7 @@ Como puedes notar esta carpeta solo tiene dos ficheros el `README` y `contacts.j
 Simplemente habrá que ejecutar este comando:
 
 ```sh
-npx create-react-app .
+npx create-react-app contacts
 ```
 
 [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) se encargara de crear la estructura.
