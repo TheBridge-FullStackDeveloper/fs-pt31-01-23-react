@@ -12,3 +12,7 @@ Haz una aplicación reloj/cronómetro siguiente los siguientes puntos:
 - Botón split: Registra el momento en el que se ha pulsado el botón
 
 * Pulsar el botón reloj cuando el crono está corriendo no para el cronómetro y debe aparecer un mensaje avisando de que el cronómetro no ha parado. Cuando volvamos a la ventana de cronómetro, el mensaje debe desaparecer.
+
+* BONUS: Cada vez que en el reloj o el cronómetro, los números sean menores que diez (o el número que corresponda en caso de los milisegundos), rellenad vosotros con 0 para poder cumplir el formato correspondiente; ejemplo:
+  - Reloj: 02:03:08
+  - Crono: 00:00:08:0012
