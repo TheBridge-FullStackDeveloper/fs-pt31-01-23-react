@@ -2,6 +2,10 @@
 
 En este ejercicio vas a construir tu propia Pokédex!
 
+- Componentes comunes para todas las rutas:
+  - Header
+  - Footer
+
 - Tendremos 2 rutas:
   - `/`
   - `/details/:name`
