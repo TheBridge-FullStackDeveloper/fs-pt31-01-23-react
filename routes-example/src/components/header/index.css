@@ -1,0 +1,23 @@
+.header {
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.links {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.default {
+  text-decoration: none;
+  color: black;
+}
+
+.selected {
+  font-weight: bold;
+  color: purple;
+}
