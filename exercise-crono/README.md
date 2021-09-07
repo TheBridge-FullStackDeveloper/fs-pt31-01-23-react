@@ -16,3 +16,5 @@ Haz una aplicación reloj/cronómetro siguiente los siguientes puntos:
 * BONUS: Cada vez que en el reloj o el cronómetro, los números sean menores que diez (o el número que corresponda en caso de los milisegundos), rellenad vosotros con 0 para poder cumplir el formato correspondiente; ejemplo:
   - Reloj: 02:03:08
   - Crono: 00:00:08:0012
+
+* BONUS 2 (Solo si se han explicado las rutas): Crea dos rutas (`/watch` y `/crono`) para pasar entre un modo y otro y crea un header con los enlaces a cada ruta.
