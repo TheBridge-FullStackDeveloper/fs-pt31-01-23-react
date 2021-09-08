@@ -1,0 +1,18 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 50%;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.input:focus {
+  outline: none;
+}
