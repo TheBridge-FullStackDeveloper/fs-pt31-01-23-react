@@ -1,0 +1,29 @@
+
+.content_principal{
+    display: flex;
+    justify-content: flex-start;
+   border: 1px solid black;
+    
+    
+}
+.h1{
+  font-family: 'Mulish', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+  
+    
+  }
+  .container{
+    display: flex;
+    height: 465px;
+  }
+ 
+ .container-text{
+  text-align: center;
+  width: 650px;
+
+ }
+ .button{
+background-color: red;
+color: white;
+ }

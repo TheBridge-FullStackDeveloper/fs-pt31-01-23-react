@@ -1,0 +1,16 @@
+.botcamp{
+    text-align: center;
+  width: 50%; /* Ajusta la anchura según tus necesidades */
+  margin: 0 auto; 
+  
+    
+}
+.h1-text{
+    border: none;
+    height: 10px;
+    background-color: red;
+    text-align: left;
+}
+.p{
+    text-align: left;
+}
