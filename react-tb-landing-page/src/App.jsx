@@ -5,32 +5,27 @@ import Headers from "./components/navbar/header/Header";
 import Bootcam from "./components/navbar/bootcamps/bootcamps";
 import { Containers, cs, ds, fs, dm, ux } from "./components/navbar/ciberseguridad/Ciber";
 
-
+//e intentado meter font-family: 'Mulish', sans-serif; para todo el texto y no lo e conseguido meti el link tambien en index.html pero nada 
 function App() {
+  const courses = [cs, ds, fs, dm, ux]
   return <body className="body">
-    <div>
-    <Navbar/>
-    <Headers/>
-    <Bootcam/>
-    <div className="containers-total">
-    <Containers course ={cs} />
-    </div>
-    <div className="containers-total">
-    <Containers course ={ds} />
-    </div>
-    <div className="containers-total">
-    <Containers course ={fs} />
-    </div>
-    <div className="containers-total">
-    <Containers course ={dm} />
-    </div>
-    <div className="containers-total">
-    <Containers course ={ux} />
-    </div>
-<h1>Hola Mundo</h1>
-    </div>
-    </body>;
+    <div >
+      <Navbar />
+      <Headers />
+      <Bootcam />
+      <div className="card-container">
+        {
+          courses.map((course, idx) =>
+            <div key={idx} className="containers-total">
+              <Containers course={course} />
+            </div>
+          )
+        }
+      </div>
     
+    </div>
+  </body>;
+
 }
 
 export default App;

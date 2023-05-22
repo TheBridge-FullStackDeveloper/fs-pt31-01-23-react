@@ -1,15 +1,20 @@
 .containers-total{
+  position: relative;
   display: inline-block;
    flex-direction: column;
     text-align: left;
     width: 400px; 
     background-color: #f2f2f2;
-    padding: 5px;
-    margin-top: 30px;
+    padding: 20px;
+    margin-top: 100px;
     margin-left: 25px;
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.813);
 
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
 }
 .card-container-wrapper {
   display: flex;
@@ -18,27 +23,48 @@
 }
 
 .h3-card{
-  margin-bottom: 80px;
+  margin-bottom: 120px;
+  font-weight: bolder;
 
 }
 .p-card{
     margin-bottom: 80px;
+    margin-right: 20px;
 }
 
 .button-card{
-    display: flex;
+  background-image: url("https://uploads-ssl.webflow.com/60780bff57ddc42a6adc1d7e/60ab63e4d647d89630b5205c_Time%20Circle.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 15px;
+  width: 20%;
+  margin-bottom: 40px;
     background-color: black;
     color: white;
   
 }
+.location-card{
+  background-image: url("https://uploads-ssl.webflow.com/60780bff57ddc42a6adc1d7e/60ab63bdeec8ef0ff6d3600d_Location.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 20px;
+  width: 40%;
+  margin-bottom: 40px;
+    background-color: black;
+    color: white;
+}
 
 .card-image {
   display: flex;
-    width: 90px;
-    margin-left: 80%;
+    width: 95px;
+    margin-left: 85%;
+    position: absolute; 
+  top: -15px; 
+  right: -15px; 
+  z-index: 1; 
+    
   
-  
-   
+
 }
 .info{
     display: flex;
