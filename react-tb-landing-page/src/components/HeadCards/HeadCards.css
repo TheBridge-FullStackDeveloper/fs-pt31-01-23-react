@@ -1,0 +1,21 @@
+.expe{
+
+    font-size   : 17px;
+    font-weight : bold;
+    margin-left : 16.3%;
+
+}
+
+.descu{
+    font-size    : 60px;
+    margin-left  : 16%;
+    line-height  : 70px;
+    margin-top   : 15px;
+}
+
+.linea1{
+    height            : 23px;
+    width             : 950px;
+    background-color  : red;
+    margin-top        : -130px;
+}
