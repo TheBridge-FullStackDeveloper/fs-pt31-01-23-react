@@ -1,7 +1,16 @@
-import "./App.css";
+import "./App.css"
+import Navbar from "./Navbar";
+import Body from "./body";
+import Bootcamp from "./bootcamps";
 
 function App() {
-  return <div>Hello React</div>;
+  return <>
+  <Navbar />
+  <Body/>
+  <Bootcamp/>
+  </>
+
+ 
 }
 
 export default App;
