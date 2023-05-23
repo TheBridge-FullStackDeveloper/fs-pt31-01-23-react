@@ -11,40 +11,30 @@
     margin-top       : 100px;
     margin-left      : 20px;
     margin-bottom    : 15px;
-    border-radius    : 10px;
+    border-radius    : 8px;
     box-shadow       : 1px 1px 5px;
     padding          : 15px;
- 
+
 }
 
 .flex-cont-card{
     display          : flex;
-    justify-content  : space-around;    
-}
-
-.flex-cont-head{
-    display          : flex;
     justify-content  : space-around;
-    margin-left: 40px;
-
-    
 }
 
-.info{
-    color            : red;
-    background-color : white;
-    text-align       : right;
-    font-weight      : bolder;
-    margin-top       : 115px;
+.title{
+    margin-top   : 0px;
+    margin-left  : -5px;
+
 }
 
-.description{
-    color            : grey;
-    font-size        : 17px;
+.logo-bt{
+    margin-top: -70px;
+    margin-left: 230px;
+    height: 100px;
 }
 
 .bg-black-time{
-    
     background-color : black;
     color            : white;
     width            : 90px;
@@ -64,19 +54,35 @@
     box-shadow       : 2px 2px 8px;
 }
 
-.logo-bt{
-    margin-top   : -28px;
-    margin-left  : 70px;
-}
-
-.title{
-    margin-top   : -5px;
+.size-svg {
+    width        : 17px;
 }
 
 .centering-text{
     margin-top   : 5px;
 }
 
-.size-svg{
-    width        : 17px;
+.line-extra{
+    height            : 1px;
+    width             : 300px;
+    background-color  : black;
+    margin-top        : -10px;
+    margin-bottom     : 10px;
+
 }
+
+.description{
+    color            : grey;
+    font-size        : 17px;
+    width            : 300px;
+    height           : 240px;
+    /* border: 1px solid red; */
+}
+
+.info{
+    color            : red;
+    text-align       : right;
+    font-weight      : bolder;
+    /* margin-top       : 460px; */
+}
+

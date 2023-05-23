@@ -5,7 +5,8 @@ body{
     background-color : white;
 }
 
+/* Para el contenedor principal de mis tarjetas */
 .flex-cards{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
