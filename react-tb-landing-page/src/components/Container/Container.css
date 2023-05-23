@@ -10,7 +10,7 @@
 .cont-right{
     display         : flex;
     justify-content : end;
-    padding-left    : 200px;
+    padding-left    : 205px;
 }
 
 .cont-right img{
@@ -49,16 +49,16 @@
   }
 
   .acelera{
-    line-height: 70px;
+    line-height: 73px;
   }
 
   .text1 {
-    font-size        : 24px;
+    font-size        : 23px;
     line-height      : 30px;
   }
 
   .text2 {
-    font-size        : 18.5px;
+    font-size        : 17px;
     line-height      : 25px;
   }
 

@@ -4,3 +4,8 @@ body{
     padding-top      : 1px;
     background-color : white;
 }
+
+.flex-cards{
+    display: flex;
+    justify-content: center;
+}
