@@ -1,0 +1,35 @@
+
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#22172b;
+    color: white;
+    height: 60px;
+    padding: 10px;
+  }
+  
+  .navbar2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  .navbar2 ul li {
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .navar2Img {
+    background-color: #22172b;
+    color: white;
+    height: 60px;
+    width: 300px;
+   
+  }
