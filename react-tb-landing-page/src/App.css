@@ -7,6 +7,6 @@ body{
 
 /* Para el contenedor principal de mis tarjetas */
 .flex-cards{
-    display: flex;
-    /* justify-content: center; */
+    display   : flex;
+    flex-wrap : wrap;
 }

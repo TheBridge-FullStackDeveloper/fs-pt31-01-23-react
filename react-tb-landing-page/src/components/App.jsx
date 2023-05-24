@@ -46,7 +46,7 @@ function App() {
           description="Con nuestro bootcamp en Desarrollo Web Full Stack adquirirás los conocimientos necesarios para desarrollar la estructura al completo de una web o web app."
           info="INFO"
         />
-
+     
         <CardsContainers
           title="Marketing Digital"
           img="https://uploads-ssl.webflow.com/60782404b8e195845053206a/60d0a6af5f8903204be404b0_DM.svg"
