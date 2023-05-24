@@ -1,0 +1,38 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 2%;
+    height: 40px; /* Ajustez la hauteur de la barre de navigation selon vos besoins */
+  }
+  
+  .navbar .img {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Ajustez la marge droite selon vos besoins */
+  }
+  
+  .navbar .img img {
+    width: 12px; 
+    height: auto; 
+  }
+  
+  .my-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 1px; 
+    color: whitesmoke;
+    font-size: 18px;
+  }
+  
+  .my-list li {
+    margin: 0 10px; /* Ajustez la marge horizontale entre les éléments de la liste selon vos besoins */
+    list-style: none; /* Supprime les puces de la liste */
+  }
+  
