@@ -1,0 +1,89 @@
+                                      /*estilo de nabvar*/
+.img {
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{   
+    height: 80px; 
+    justify-content: center;
+    background-color: rgb(14, 14, 65);
+    display: flex;
+    margin: 0;
+    padding-top: 0;
+}
+.navbarul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    color: white;   
+}
+.navbarli{
+    margin: 0 10px;
+}
+.boton{
+    display: flex;
+    margin-left: 10%;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+                                            /*estilo de h1, h2, p y background image*/
+.backimage{
+    background-image: url("https://uploads-ssl.webflow.com/60780bff57ddc42a6adc1d7e/60e4408a7bd856103b6000f5_DSC03804%20(2).jpg");
+}
+
+h1{
+    position: relative;
+    display: flex;
+    text-align: justify;
+    padding-right: 220px;
+    font-family: 'Mulish', sans-serif;
+      font-size: 55px;
+      font-weight: bold;
+      font-weight: bold;
+}
+.p{
+    display: flex;
+    text-align: justify;
+    padding-right: 110px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    text-align: justify;
+    padding-right: 120px;
+}
+                                      /*estilo de bootcamps*/
+.bootcamp{
+    text-align: center;
+  width: 100%; 
+  margin: 0 auto ;
+  position: relative; 
+  
+}
+.h1{
+    border-color: solid 5px blue;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 60%;
+    z-index: 2;
+    position: relative;
+}
+.p{
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.red{
+    background-color: red;
+    
+    height: 15px;
+    width: 60%;
+    position: absolute;
+}
