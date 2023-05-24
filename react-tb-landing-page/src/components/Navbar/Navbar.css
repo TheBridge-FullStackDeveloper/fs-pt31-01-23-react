@@ -1,0 +1,24 @@
+.navbar{
+
+    background-color : black;
+    color            : white;
+    display          : flex;
+    justify-content  : center;
+    list-style       : none;
+    gap              : 35px;
+    width            : auto;
+    height           : 45px;
+    padding-top      : 25px;
+    margin-top       : 8px;
+    font-size        : 18px;
+
+}
+
+.navbar li:hover{
+    color: gray;
+}
+
+.imgLogo {
+    height      : 25px;
+    margin-top  : -3px;
+}

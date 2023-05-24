@@ -1,0 +1,88 @@
+.containBoxes{
+    display         : flex;
+    justify-content : center;
+}
+
+.Cards{
+
+    width            : 300px;
+    height           : 395px;
+    background-color : white;
+    margin-top       : 100px;
+    margin-left      : 20px;
+    margin-bottom    : 15px;
+    border-radius    : 8px;
+    box-shadow       : 1px 1px 5px;
+    padding          : 15px;
+
+}
+
+.flex-cont-card{
+    display          : flex;
+    justify-content  : space-around;
+}
+
+.title{
+    margin-top   : 0px;
+    margin-left  : -5px;
+
+}
+
+.logo-bt{
+    margin-top: -70px;
+    margin-left: 230px;
+    height: 100px;
+}
+
+.bg-black-time{
+    background-color : black;
+    color            : white;
+    width            : 90px;
+    height           : 29px;
+    text-align       : center;
+    border-radius    : 5px;
+    box-shadow       : 2px 2px 8px;
+}
+
+.bg-black-modo{
+    background-color : black;
+    color            : white;
+    width            : 170px;
+    height           : 29px;
+    text-align       : center;
+    border-radius    : 5px;
+    box-shadow       : 2px 2px 8px;
+}
+
+.size-svg {
+    width        : 17px;
+}
+
+.centering-text{
+    margin-top   : 5px;
+}
+
+.line-extra{
+    height            : 1px;
+    width             : 300px;
+    background-color  : black;
+    margin-top        : -10px;
+    margin-bottom     : 10px;
+
+}
+
+.description{
+    color            : grey;
+    font-size        : 17px;
+    width            : 300px;
+    height           : 240px;
+    /* border: 1px solid red; */
+}
+
+.info{
+    color            : red;
+    text-align       : right;
+    font-weight      : bolder;
+    /* margin-top       : 460px; */
+}
+

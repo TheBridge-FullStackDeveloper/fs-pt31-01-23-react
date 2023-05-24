@@ -1,0 +1,14 @@
+body{
+    margin           : 0px;
+    padding          : 8px;
+    padding-top      : 1px;
+    background-color : white;
+}
+
+/* Para el contenedor principal de mis tarjetas */
+.flex-cards{
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : center;
+}
+
