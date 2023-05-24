@@ -7,13 +7,13 @@
     top: 0;
     width: 100%;
     padding: 2%;
-    height: 40px; /* Ajustez la hauteur de la barre de navigation selon vos besoins */
+    height: 40px; 
   }
   
   .navbar .img {
     display: flex;
     align-items: center;
-    margin-right: 20px; /* Ajustez la marge droite selon vos besoins */
+    margin-right: 20px; 
   }
   
   .navbar .img img {
@@ -32,7 +32,7 @@
   }
   
   .my-list li {
-    margin: 0 10px; /* Ajustez la marge horizontale entre les éléments de la liste selon vos besoins */
-    list-style: none; /* Supprime les puces de la liste */
+    margin: 0 10px;
+    list-style: none; 
   }
   

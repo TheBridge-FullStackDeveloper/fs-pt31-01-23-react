@@ -1,0 +1,30 @@
+.bootcamps-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .bootcamp-card {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+  }
+  
+  .bootcamp-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .bootcamp-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .bootcamp-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
