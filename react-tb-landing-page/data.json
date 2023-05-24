@@ -1,8 +1,8 @@
 {
   "navbar": {
-    "img": "https://uploads-ssl.webflow.com/60780bff57ddc42a6adc1d7e/607eeb4b0517b6659206c10f_thebridgelogo.svg",
+    "img": "https://raw.githubusercontent.com/TheBridge-FullStackDeveloper/thebridge-homepage-styledcomponent-exercise/5e1e4ad2613e98aa4c0b878a8dc54337c02184d9/imgs/thebridge_logo.svg",
     "links": [
-      "cursos",
+      "Cursos",
       "Donde estudiar",
       "Financiacion y becas",
       "Empresas e instruccioines",
@@ -14,6 +14,7 @@
     "subheading": "En una época de cambios y desarrollo tecnológico, tu formación no puede perder el ritmo.",
     "paragraph": "Cuando eliges un bootcamp en The Bridge estás dando el paso definitivo hacia una de las profesiones del futuro más demandadas en el presente, ya sea Ciberseguridad, Data Science, Desarrollo de Software, Diseño de Producto UX/UI o Marketing Digital.",
     "button": "pide información"
+    
   },
   "bootcamps": {
     "header": "Descubre nuestros Bootcamps",

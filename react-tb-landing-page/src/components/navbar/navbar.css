@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #22172b;
+    position: relative;
+}
+.logo{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.listalink{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 15px;
+    align-items: center;
+}
+.links{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px;
+}
+.links:after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #ffffff transparent transparent transparent;
+    margin-left: 5px;
+  }
+
+
