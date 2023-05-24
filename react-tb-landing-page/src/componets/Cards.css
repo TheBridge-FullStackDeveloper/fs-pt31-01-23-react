@@ -1,0 +1,53 @@
+
+.yard {
+    background-color: #22172b;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.behind {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.card  {
+    min-width: 180px;
+    background-color: #fff;
+    border-bottom: 5px solid #f7404c;
+    border-right: 5px solid #f7404c;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: auto;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    font-family: Futura webfont,sans-serif;
+    display: flex;
+}
+
+h3 {
+    color: #22172b;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Mulish,sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    position: static;
+}
+
+.asterisk {
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    font-family: Mulish,sans-serif;
+    font-size: 11px;
+    line-height: 11px;
+}
