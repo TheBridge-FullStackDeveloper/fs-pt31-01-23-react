@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 50vh;
+  padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title span {
+    color: red;
+  }
+
+  .subheading {
+    font-size: 20px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+  }  
