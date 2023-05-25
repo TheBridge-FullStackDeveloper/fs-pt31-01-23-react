@@ -1,0 +1,38 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 2%;
+    height: 40px; 
+  }
+  
+  .navbar .img {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+  }
+  
+  .navbar .img img {
+    width: 12px; 
+    height: auto; 
+  }
+  
+  .my-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 1px; 
+    color: whitesmoke;
+    font-size: 18px;
+  }
+  
+  .my-list li {
+    margin: 0 10px;
+    list-style: none; 
+  }
+  
