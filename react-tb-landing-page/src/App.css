@@ -34,30 +34,39 @@
                                             /*estilo de h1, h2, p y background image*/
 .backimage{
     background-image: url("https://uploads-ssl.webflow.com/60780bff57ddc42a6adc1d7e/60e4408a7bd856103b6000f5_DSC03804%20(2).jpg");
+    height: 900px;
 }
 
-h1{
+.acelera{
     position: relative;
     display: flex;
-    text-align: justify;
+    justify-content: center;
+    text-align:center;
     padding-right: 220px;
     font-family: 'Mulish', sans-serif;
       font-size: 55px;
       font-weight: bold;
       font-weight: bold;
+      color: white;
 }
-.p{
+.thebrid{
     display: flex;
-    text-align: justify;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
     padding-right: 110px;
+    color: white;
+    font-size: 20px;
 }
 
-h2{
-    font-size: 20px;
+.cambios{
+    font-size: 40px;
     font-weight: bolder;
     display: flex;
-    text-align: justify;
+    justify-content: center;
+    text-align: center;
     padding-right: 120px;
+    color: white;
 }
                                       /*estilo de bootcamps*/
 .bootcamp{
@@ -74,9 +83,11 @@ h2{
     padding-right: 60%;
     z-index: 2;
     position: relative;
+    font-size: 55px;
 }
 .p{
     text-align: left;
+    font-size: 40px;
     padding-left: 20%;
     padding-right: 20%;
 }
