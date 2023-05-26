@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    list-style: none;
+    color: aliceblue;
+    margin-right: 200px;
+    padding: 0;
+    gap: 30px;
+}
+
+.tb {
+
+    display: flex;
+    justify-content:right;
+    background-color: indigo;
+    background-image: url(https://uploads-ssl.webflow.com/60780bff57ddc42a6adc1d7e/607eeb4b0517b6659206c10f_thebridgelogo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+
+
+}
