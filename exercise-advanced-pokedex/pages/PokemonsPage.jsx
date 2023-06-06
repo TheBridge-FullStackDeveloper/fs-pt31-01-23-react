@@ -15,10 +15,7 @@ function PokemonsPage() {
         setPokemons(response.data.results);
         console.log(response.data.results)
       })
-      .catch((error) => {
-        setIsLoaded(true);
-        setError(error);
-      });
+     
   }, []);
 
     if (!isLoaded) {
