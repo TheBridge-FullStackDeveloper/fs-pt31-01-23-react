@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 const StyledPokemonDetails = styled.div`
+ div{
  
+  display: flex;
+ }
 
   h2 {
     border-radius: 50%;
@@ -20,10 +23,17 @@ const StyledPokemonDetails = styled.div`
   }
 
   img {
-    border-radius: 10px;
-    background-color: whitesmoke;
-    border: 2px solid;
-    margin-left: 33%;
+    margin-left: 40%;
+    /* border-radius: 10px; */
+    /* background-color: whitesmoke; */
+    /* border: 2px solid; */
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
     /* justify-content: space-evenly; */
     display: flex;
     width: 300px;

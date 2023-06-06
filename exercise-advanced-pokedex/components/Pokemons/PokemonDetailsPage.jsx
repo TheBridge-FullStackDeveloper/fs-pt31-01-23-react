@@ -26,7 +26,9 @@ function PokemonDetailsPage() {
     return (
       <Styled.StyledPokemonDetails>
         <h2>{pokemon?.name}</h2>
+        <div>
         <img src={pokemon?.sprites.front_default} alt={pokemon?.name} />
+        </div>
         <p>Height: {pokemon?.height}</p>
         <p>Weight: {pokemon?.weight}</p>
         
