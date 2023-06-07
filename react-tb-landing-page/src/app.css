@@ -1,0 +1,11 @@
+/*.body{
+    background-position: 50% 50%;
+  background-size: cover;
+  min-height: 500px;
+}*/
+.body{
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  width: 0px;
+  height: 0px;
+}
