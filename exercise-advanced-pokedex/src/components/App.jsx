@@ -1,24 +1,17 @@
 import "../App.css";
+import HomePage from "./Home/HomePage";
+import Navbar from "./NavBar/NavBar";
 
-function NavBar(){
-  return(
-    <>
-      <ul>
-        <li>Pokedex</li>
-        <li>CualquierCosa</li>
-        <li>Volver</li>
-      </ul>
-    </>
-  )
-}
 
 
 function App() {
 
   return (
     <>
-      <NavBar />  
-     <h1><i>Hello React PORFIN ME VAAA!!!!!</i></h1>
+ 
+      <Navbar/>
+      <HomePage />
+
     </>
   )
 }
