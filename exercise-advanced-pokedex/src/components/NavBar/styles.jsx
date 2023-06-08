@@ -1,23 +1,22 @@
-import styled from "style-components";
+import { styled } from "styled-components";
 
-const StyledNavBar = styled.div`
+const StyledNavBar = styled.nav`
 
-    .header{
         display          : flex;
         justify-content  : center;
-    }
 
     .navbar{
         display         : flex;
         justify-content : center;
-        gap             : 25px;
+        gap             : 40px;
         color           : black;
+        font-weight     : bold;
         background-color: #E2DBBE;
         width           : 70%;
         height          : 25px;
         padding-top     : 6px;
-        box-shadow      : 0px 1px 5px black;
-        border-radius   : 10px;
+        box-shadow      : 0px 0px 8px black;
+        border-radius   : 15px 15px 0px 0px;
     }
 
     ul li{
