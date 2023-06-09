@@ -2,9 +2,7 @@ import { styled } from "styled-components";
 
 const ContainerPoke = styled.div`
 
-    text-align       : center;
-    background-image : blue;
-    color            : #000;
+    border: 1px solid black;
     
     
 `
@@ -12,5 +10,4 @@ const ContainerPoke = styled.div`
 
 export default {
     ContainerPoke,
-  
 }

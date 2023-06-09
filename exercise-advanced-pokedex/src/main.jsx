@@ -11,12 +11,9 @@ const Container = () => {
       <Switch>
         <Route path="/home" component={Home} />
         <Route path="/Pokemons" component={Pokemon} />
+        <Route path="/Pokemons/:name" component={Pokemon} />
         <Redirect to="/home"/>
       </Switch>
-
-      {/* <Navbar />
-      <HomePage/> */}
-      {/* <App /> */}
 
     </>
    )
