@@ -12,11 +12,11 @@ const Pokemon = () => {
   
     useEffect(() => {
       axios
-        .get("https://pokeapi.co/api/v2/pokemon?limit=1281&offset=0")
+        .get("https://pokeapi.co/api/v2/pokemon?limit=500")
         .then((response) => {
           setIsLoaded(true);
           setPokemons(response.data.results);
-          console.log(response.data.results)
+        //console.log(response.data.results)
         })
        
     }, []);
@@ -43,11 +43,9 @@ const Pokemon = () => {
                     </ul>
 
                 </Styled.PokePage>     
-                
             </>   
         );       
     }
 }
-
 
 export default Pokemon;
