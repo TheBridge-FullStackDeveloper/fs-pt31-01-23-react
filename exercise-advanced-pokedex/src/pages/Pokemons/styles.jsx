@@ -15,8 +15,10 @@ const PokePage = styled.div`
     padding-bottom : 10px;
     padding-right  : 25px;
 
+
     ul{
-        column-count : 8;
+        column-count   : 8;
+        text-transform : capitalize;
     }
 
     ul li{
@@ -26,6 +28,15 @@ const PokePage = styled.div`
     ul li:hover, ul li a:hover{
         color         : #FFE347;
         text-shadow   : 1px 1px 5px black;
+    }
+
+    a:visited{
+        color: green;
+    }
+
+    a:link, a:active {
+        text-decoration :none;
+        color           : black;
     }
 
     .title-list{

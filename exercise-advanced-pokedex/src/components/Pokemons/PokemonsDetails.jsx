@@ -37,6 +37,10 @@ const PokemonDetails = () => {
                         </div>
                         <p className="detail-poke">Height: {pokemon?.height}</p>
                         <p className="detail-poke">Weight: {pokemon?.weight}</p>
+                        
+                        <button  className="back-list">
+                            <a href="/Pokemons">Volver</a>
+                        </button>
                     </div>
                 </Styled.ContainerPoke>   
             </>

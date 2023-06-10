@@ -23,7 +23,7 @@ const Pokemon = () => {
 
     if (!isLoaded) {
         
-        return <div>Cargando...</div>;
+        return ( <div>Cargando...</div> );
     
     } else {
 
